@@ -1,0 +1,2 @@
+/usr/bin/ar cr libBasicToolsL1.a  CMakeFiles/BasicToolsL1Static.dir/eigen3x3/dsyevq3.cpp.o CMakeFiles/BasicToolsL1Static.dir/eigen3x3/dsytrd3.cpp.o CMakeFiles/BasicToolsL1Static.dir/eigen3x3/dsyevh3.cpp.o CMakeFiles/BasicToolsL1Static.dir/eigen3x3/dsyevc3.cpp.o
+/usr/bin/ranlib libBasicToolsL1.a

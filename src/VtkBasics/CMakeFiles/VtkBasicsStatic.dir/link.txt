@@ -1,0 +1,2 @@
+/usr/bin/ar cr libVtkBasics.a  CMakeFiles/VtkBasicsStatic.dir/VtkPoints.cpp.o CMakeFiles/VtkBasicsStatic.dir/VtkWindow.cpp.o CMakeFiles/VtkBasicsStatic.dir/VtkObject.cpp.o CMakeFiles/VtkBasicsStatic.dir/VtkLine.cpp.o CMakeFiles/VtkBasicsStatic.dir/VtkPolyData.cpp.o
+/usr/bin/ranlib libVtkBasics.a

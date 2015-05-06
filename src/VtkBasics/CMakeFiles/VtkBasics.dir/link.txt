@@ -1,0 +1,1 @@
+/usr/bin/g++  -fPIC -Wno-deprecated -mfpmath=sse -msse -msse2 -msse3 -mssse3 -msse4.1 -O3 -O3 -DNDEBUG    -shared -Wl,-soname,libVtkBasics.so -o libVtkBasics.so CMakeFiles/VtkBasics.dir/VtkPoints.cpp.o CMakeFiles/VtkBasics.dir/VtkWindow.cpp.o CMakeFiles/VtkBasics.dir/VtkObject.cpp.o CMakeFiles/VtkBasics.dir/VtkLine.cpp.o CMakeFiles/VtkBasics.dir/VtkPolyData.cpp.o 
