@@ -1,0 +1,22 @@
+Greedy ObjRecRANSAC
+Author: Chi Li
+Date: 05/06/2015
+
+Install:
+cd ~
+git clone https://github.com/lichiconstant/ObjRecRANSAC.giti
+cd ObjRecRANSAC && mkdir build && cd build
+cmake .. && make -j8
+
+Run (main_demo.cpp):
+./SegRansac --c1 0 --c2 1 --p ../data/ln_joint/ --m 4 -v
+
+Note: c1,c2 are the starting and ending indexes of the sample frames saved in the scene/. The segmented point clouds are saved in result/. '-v' is the flag to visualize the result. You can disable it. '--m' determines the method id:
+
+0: standard ObjRecRANSAC
+1: Greedy Batch
+2: Greedy One
+3: Semantic + Standard ObjRecRANSAC
+4: Semantic + Greedy Batch
+5: Semantic + Greedy One
+
